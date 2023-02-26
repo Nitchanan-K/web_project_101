@@ -172,6 +172,8 @@ ul {
     padding-left: 72px;
     padding-right: 72px;
     gap: 32px;
+    justify-content: center;
+    padding-bottom: 32px;
    }
 
 
@@ -180,7 +182,9 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: calc(30%);
+    width: calc(27%);
+    
+    
     
    }
 
@@ -189,5 +193,89 @@ ul {
     height: auto;
    }
 
+   .courses-box .course-cards > div :nth-child(2){
+    padding-left: 16px;
+    padding-bottom: 24px;
+   }
 
+   .courses-box .course-cards .course-card h3{
+    padding-top: 16px;
+    padding-bottom: 8px;
+   }
+
+   .courses-box .course-cards .course-card .text-course{
+     padding-bottom: 8px;
+     padding-left: 0px;
+     
+   }
+
+/* Thesis Section */
+
+.thesis-text{
+    display: flex;
+    justify-content: center;
+}
+
+.thesis-section > div :nth-child(1){
+    padding-top: 16px;
+}
   
+.thesis-section .thesis-bot{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.thesis-section .thesis-box{
+    display: flex;
+}
+
+.thesis-rigth{
+    display: flex;
+    
+}
+
+.thesis-left{
+    width: 60%;
+}
+
+.thesis-left > div :nth-child(1){
+    width: 100%;
+}
+
+
+.thesis-rigth{
+    width: 40%;
+    
+}
+
+.thesis-card-right{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    
+}
+
+.thesis-card-right div :nth-child(1){
+    
+   width: 35%;
+}
+
+.thesis-card-right div :nth-child(1) img{
+  width: 100%;
+}
+
+
+
+
+.thesis-card-right > div :nth-child(1){
+    width: 100%;
+}
+
+
+.thesis-left {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
