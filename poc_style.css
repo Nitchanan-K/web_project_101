@@ -1,0 +1,61 @@
+:root{
+    --gray-color: #d8d8d8;
+    --dark-gray-color: #4a4a4a;
+    --light-gray-color: #f3f5f5;
+    --mid-gray-color:#D8D8D8;
+    
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+body {
+    max-width: 1140px;
+    font-family: sans-serif;
+}
+
+/* Header  */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+nav .logo .logo-svg{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+nav .logo{
+    font-size: 30px;
+    padding-left: 24px;    
+    height: 32px;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    list-style: none;
+    padding-right: 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+

@@ -2,5 +2,115 @@
     --gray-color: #d8d8d8;
     --dark-gray-color: #4a4a4a;
     --light-gray-color: #f3f5f5;
+    --mid-gray-color:#D8D8D8;
     
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .logo{
+    font-size: 30px;
+    padding-left: 24px;    
+    height: 32px;
+    padding-top: 6px; /* fix later*/
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    list-style: none;
+    padding-right: 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+/* Banner section */ 
+.banner-section{
+    display: flex;
+    background-color: var(--mid-gray-color);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-section .left{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 60%;
+}
+
+.banner-section .right{
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 40%;
+}
+
+
+.banner-section .right h1{
+    color: var(--dark-gray-color);
+}
+
+.banner-section .right h3{
+    color: var(--dark-gray-color);
+}
+
+.banner-section .right a{
+    background-color: var(--dark-gray-color);
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/* Information section */
+
+.infomation-main{
+    display: flex;
+    
+}
+
+.information-quote .left{
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+/* Coures section */ 
+
+.course-section{
+    display: flex;
+    
+}
+
+.wrapper .{
+    display: flex;
+}
+
+
+
+
+
